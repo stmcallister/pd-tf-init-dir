@@ -1,2 +1,2 @@
-# pd-tf-init-dir
-Utility to create Terraform directory defined with PagerDuty provider
+#pdtf
+Utility to create Terraform code for managing a PagerDuty account.
