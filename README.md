@@ -6,12 +6,12 @@ Utility to create Terraform code (HCL) for managing a PagerDuty account. Current
 
 If you're new to Go, check out ["How to Build and Install Go Programs"](https://www.digitalocean.com/community/tutorials/how-to-build-and-install-go-programs)
 
-## Running the Program
+## Usage
 In the root directory (`pdtf/`) of the project run either `go run .` to run pdtf or `go build` to build the pdtf binary. The project also uses
 [Taskfile](https://taskfile.dev/) to run the build process.
 If you build the binary, you can run it by calling `./pdtf` in the project directory or add it to your PATH and run `pdtf` from anywhere.
 
-## Usage
+
 ### `pdtf mkdir <directory_name>`
 
 This command creates a directory with the name that is passed as an argument. Inside the directory two files are created: `main.tf` and `terraform.tf`. 
